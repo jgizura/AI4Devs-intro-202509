@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.input-container {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+#textInput {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+#textInput:focus {
+    border-color: #007bff;
+}
+
+.button-container {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background-color 0.3s;
+}
+
+.btn-reverse {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-reverse:hover {
+    background-color: #0056b3;
+}
+
+.btn-copy {
+    background-color: #6c757d;
+    color: white;
+}
+
+.btn-copy:hover {
+    background-color: #545b62;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+    fill: currentColor;
+}
+
+.result-container {
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.result-text {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    min-height: 50px;
+    word-wrap: break-word;
+}
